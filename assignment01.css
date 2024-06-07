@@ -3,11 +3,10 @@ p {
     border: 2px solid grey;
     border-radius: 10px;
     margin: 25px; 
-    padding: 35px;
+    padding: 50px;
+    display: flex;
 }
-p img {
-    width: 150px;
-}
+
 .blue p {
 
     width: 50%;
@@ -41,11 +40,61 @@ display: grid;
 grid-template-columns: repeat(3, 1fr);
 }
 a {
-    width:50% ;
+    width:100% ;
     border: 2px solid grey;
     border-radius: 20px;
     margin: 10px;
-    background-color: rgb(19, 19, 160);
-    color: rgb(255, 255, 255); 
+    background-color: rgb(209, 209, 222);
+    color: rgb(0, 96, 58); 
     
 }
+.Division{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+}
+.dancing-script-uniquifier {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+  img {
+    
+    width: 200px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #000; /* Add a black border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Add a shadow effect */
+    margin: 20px; /* Add margin around the image */
+}
+.lobster-two-regular {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lobster-two-bold {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lobster-two-regular-italic {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lobster-two-bold-italic {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+
+  
+  
