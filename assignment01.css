@@ -1,0 +1,51 @@
+p {
+    width:75% ;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 25px; 
+    padding: 35px;
+}
+p img {
+    width: 150px;
+}
+.blue p {
+
+    width: 50%;
+    border: 2px solid blue;
+    background-color: rgb(173, 173, 221);
+    margin-right: 20px;
+
+}
+
+
+.red p {
+
+   width: 75%;
+   border: 2px solid red;
+   background-color: rgb(231, 185, 185);
+   margin-left: auto; 
+}
+
+
+.blue {
+   display: flex; 
+}
+.bottom {
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+.top{
+display: grid;
+/* grid-template-columns: 1fr 1fr 1fr 1fr 1fr ; */
+grid-template-columns: repeat(3, 1fr);
+}
+a {
+    width:50% ;
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: rgb(19, 19, 160);
+    color: rgb(255, 255, 255); 
+    
+}
